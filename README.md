@@ -1,11 +1,11 @@
 # GitHub-Search
 
-An application where users can upload quotes and have those quotes voted on , 10/18/2021.
+An application where users can search for GitHub accounts using their name , 10/18/2021.
 By Juliana Alikutepa
 
 ## Description
 
-An application that allows users to upload quotes. The quotes can then be up voted, down voted and/or deleted.
+An application that allows users search for GitHub accounts using their name, and also view the repositories under the specific account name.
 ## Development
 To make advancements/modifications, follow these steps:
 
