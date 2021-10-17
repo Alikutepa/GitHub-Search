@@ -3,8 +3,7 @@
   }
 
   h2{
-    background: black;
-    color: rgb(253, 251, 251);
+    
     margin-top: 20px;
     padding: 5px;
     width:500px;
@@ -14,12 +13,11 @@
 
   
   #profile {
-    background:black;
-    color: rgb(248, 246, 246);
+  
     margin-top: 20px;
     padding: 20px;
     margin-left: 13%;
-    border-radius: 8px;
+    border-style: double;
     position: relative;
     left: 5%;
     width: 900px;
@@ -37,7 +35,7 @@
     padding-bottom: 0;
     display: flex;
     align-items: flex-end;
-    color: #d19438 !important;
+    
   }
 
   
@@ -45,5 +43,5 @@
     max-width: 18rem;
     height: 15rem;
     object-fit: cover;
-    border-radius: 1.8rem;
+    border-radius: 50%;
   }
