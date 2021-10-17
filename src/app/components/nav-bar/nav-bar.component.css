@@ -1,12 +1,12 @@
 
 
-.bolder-colored{
-    color: #B3B6B7;
+.span1{
+    color: black;
     font-size: 35px;
     font-family:  'beyond_the_mountainsregular', sans-serif;
 }
-.bold-colored{
-    color: #d19438;
+.span2{
+    color: #F72C64;
     font-size: 35px;
     font-family:  'beyond_the_mountainsregular', sans-serif;
 }
@@ -16,7 +16,7 @@ nav{
     justify-content: space-around;
     align-items: center;
     min-height: 15vh;
-    background-color: #020202;
+    background-color: #2f2fA2;
     width: 100%;
     font-family: 'Concert One', cursive;
     
@@ -33,7 +33,7 @@ nav{
 }
 
  a {
-    color: #d19438;
+    color: #F72C64;
     text-decoration: none;
     font-size: 30px;
     font-weight: bold;
