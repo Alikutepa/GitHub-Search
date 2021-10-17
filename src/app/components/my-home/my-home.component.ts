@@ -25,9 +25,9 @@ export class MyHomeComponent implements OnInit {
   constructor(private servicesService: ServicesService, private http:HttpClient) { }
 
   ngOnInit(){
-    this.servicesService.requestUserInfo("felkiriinya")
+    this.servicesService.requestUserInfo("alikutepa")
     this.user = this.servicesService.user
-    this.servicesService.requestRepositories("felkiriinya")
+    this.servicesService.requestRepositories("alikutepa")
     this.repos = this.servicesService.repos
 
     this.showRepositories=false;
