@@ -1,4 +1,4 @@
-# Quotes-App
+# GitHub-Search
 
 An application where users can upload quotes and have those quotes voted on , 10/18/2021.
 By Juliana Alikutepa
