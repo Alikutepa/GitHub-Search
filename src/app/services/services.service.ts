@@ -32,7 +32,7 @@ export class ServicesService {
     }
    
 
-let promise =new Promise ((resolve, reject)=>{
+let promise =new Promise<void> ((resolve, reject)=>{
      this.http.get<userApiResponse>(`https://api.github.com/users/${username}?client_id=1179d43fb4eb61d15d6b3855fd52434a802d74e4`).toPromise().then(response =>{
             this.user.name = response.name 
             this.user.login= response.login           
@@ -66,7 +66,7 @@ let promise =new Promise ((resolve, reject)=>{
       forks: number
      }
      
-     let promise = new Promise ((resolve,reject)=>{
+     let promise = new Promise<void> ((resolve,reject)=>{
       let arrayLength = this.repos.length;
 
       for (let i=0; i<arrayLength; i++){
